@@ -1,0 +1,222 @@
+{
+  "id": "d7f22e08-00a9-499d-b830-b17add5ccc42",
+  "version": "2.0",
+  "name": "AutomationTesting ",
+  "url": "https://dashboard-staging.rekalaba.com",
+  "tests": [{
+    "id": "d651dbb7-a317-4c9b-a3ca-365d6c33817f",
+    "name": "automation-test",
+    "commands": [{
+      "id": "52aabc37-50c0-4dce-9f13-b251a672a227",
+      "comment": "",
+      "command": "open",
+      "target": "/master-data/customer/list",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5fe69e2-c9a6-4a68-9c0d-d4321d4a045d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "652x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "729fd1cc-cc6e-4393-82bd-5e10fd73c9cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-product-button > .ng-tns-c22-6",
+      "targets": [
+        ["css=.add-product-button > .ng-tns-c22-6", "css:finder"],
+        ["xpath=//div[@id='rekalaba-ui-customer-list']/mat-sidenav-container/mat-sidenav-content/div/div/div/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'+ Add Customer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60716bd9-49cf-4a58-b141-a410a6cc70e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["name=name", "name"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-0']/mat-dialog-container/app-customer-list-form/div/div/form/div/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47c06d03-ddf1-4f11-8875-9d886e58f1c7",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["name=name", "name"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-0']/mat-dialog-container/app-customer-list-form/div/div/form/div/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Tester"
+    }, {
+      "id": "90e13a7a-1647-477e-be5e-c7443291ae60",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-2",
+      "targets": [
+        ["id=mat-input-2", "id"],
+        ["name=email", "name"],
+        ["css=#mat-input-2", "css:finder"],
+        ["xpath=//input[@id='mat-input-2']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-0']/mat-dialog-container/app-customer-list-form/div/div/form/div/mat-form-field[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//mat-form-field[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da57a83c-c7db-4dc3-8ec5-d2f82b09b618",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-2",
+      "targets": [
+        ["id=mat-input-2", "id"],
+        ["name=email", "name"],
+        ["css=#mat-input-2", "css:finder"],
+        ["xpath=//input[@id='mat-input-2']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-0']/mat-dialog-container/app-customer-list-form/div/div/form/div/mat-form-field[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//mat-form-field[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "tester02@gmail.com"
+    }, {
+      "id": "61decc98-1b07-461c-8918-5b278409119b",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["name=name", "name"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-0']/mat-dialog-container/app-customer-list-form/div/div/form/div/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a91bb7c-e046-42e4-b7af-14400b6cd877",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["name=name", "name"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-0']/mat-dialog-container/app-customer-list-form/div/div/form/div/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "tester"
+    }, {
+      "id": "8d16dc07-931c-4b73-8824-2cea41ebbfec",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-3",
+      "targets": [
+        ["id=mat-input-3", "id"],
+        ["name=phoneNo", "name"],
+        ["css=#mat-input-3", "css:finder"],
+        ["xpath=//input[@id='mat-input-3']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-0']/mat-dialog-container/app-customer-list-form/div/div/form/div/mat-form-field[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//mat-form-field[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d78f0819-12bb-48c3-a3d6-dc950fc854a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-3",
+      "targets": [
+        ["id=mat-input-3", "id"],
+        ["name=phoneNo", "name"],
+        ["css=#mat-input-3", "css:finder"],
+        ["xpath=//input[@id='mat-input-3']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-0']/mat-dialog-container/app-customer-list-form/div/div/form/div/mat-form-field[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//mat-form-field[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "082386432134"
+    }, {
+      "id": "3bd3d269-9bbb-413d-af8c-ca60a6704de6",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-4",
+      "targets": [
+        ["id=mat-input-4", "id"],
+        ["name=address", "name"],
+        ["css=#mat-input-4", "css:finder"],
+        ["xpath=//textarea[@id='mat-input-4']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-0']/mat-dialog-container/app-customer-list-form/div/div/form/div/mat-form-field[4]/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa78ebfd-fa9e-4713-a041-67755240a265",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-4",
+      "targets": [
+        ["id=mat-input-4", "id"],
+        ["name=address", "name"],
+        ["css=#mat-input-4", "css:finder"],
+        ["xpath=//textarea[@id='mat-input-4']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-0']/mat-dialog-container/app-customer-list-form/div/div/form/div/mat-form-field[4]/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Jakarta Selatan"
+    }, {
+      "id": "174617e1-2b01-4c4e-8f02-8c1b718b0b98",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-5",
+      "targets": [
+        ["id=mat-input-5", "id"],
+        ["name=companyName", "name"],
+        ["css=#mat-input-5", "css:finder"],
+        ["xpath=//input[@id='mat-input-5']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-0']/mat-dialog-container/app-customer-list-form/div/div/form/div/mat-form-field[5]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//mat-form-field[5]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "391db64e-92b5-4b25-8315-7221a77170f4",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-5",
+      "targets": [
+        ["id=mat-input-5", "id"],
+        ["name=companyName", "name"],
+        ["css=#mat-input-5", "css:finder"],
+        ["xpath=//input[@id='mat-input-5']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-0']/mat-dialog-container/app-customer-list-form/div/div/form/div/mat-form-field[5]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//mat-form-field[5]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Rekalaba"
+    }, {
+      "id": "bcf88320-9c41-4335-a6d3-9604474ac4ee",
+      "comment": "",
+      "command": "close",
+      "target": "css=.ng-tns-c32-30 > .add-product-button",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ae8341ac-d4fe-4be9-926d-7aaf8d411227",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d651dbb7-a317-4c9b-a3ca-365d6c33817f"]
+  }],
+  "urls": ["https://dashboard-staging.rekalaba.com/"],
+  "plugins": []
+}
